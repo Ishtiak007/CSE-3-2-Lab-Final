@@ -4,3 +4,13 @@
 * 3.3V  → 3V3
 
 
+
+File Sharing :
+
+Network connection → Ethernet → Properties → Internet protocol version 4
+
+For share → right click on folder → properties → sharing (permission) → share → everyone → add → share
+
+For access → this pc → path → \\ → IP address (192.168.1.2)
+
+
