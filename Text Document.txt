@@ -5,12 +5,23 @@
 
 
 
-File Sharing :
+File Sharing : ⇢⇢⇢⇢⇢⇢⇢⇢⇢⇢
 
 Network connection → Ethernet → Properties → Internet protocol version 4
 
 For share → right click on folder → properties → sharing (permission) → share → everyone → add → share
 
 For access → this pc → path → \\ → IP address (192.168.1.2)
+
+
+
+Microprocessor : ⇢⇢⇢⇢⇢⇢⇢⇢⇢
+
+File → new → stm32 project → stm32f103c8t6
+
+PC 13 → GPIO_Output → system core → rcc → after rcc point
+
+After pasting code → (3) c/c++ build → setting → MCU/MPU post build outputs (Do it 2 times)
+
 
 
