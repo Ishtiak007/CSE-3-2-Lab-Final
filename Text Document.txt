@@ -1,0 +1,6 @@
+* SWCLK → SWCLK
+* SWDIO → SWIO
+* GND   → GND
+* 3.3V  → 3V3
+
+
