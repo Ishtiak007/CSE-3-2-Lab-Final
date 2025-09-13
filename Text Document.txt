@@ -56,3 +56,13 @@ Classroom(config-if)#exit
 Classroom(config)#
 
 
+Classroom(config)#interface fastEthernet 0/24
+Classroom(config-if)#switchport mode trunk
+
+Classroom(config-if)#
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/24, changed state to down
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/24, changed state to up
+exit
+
+
