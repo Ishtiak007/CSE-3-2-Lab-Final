@@ -56,6 +56,10 @@ Classroom(config-if)#exit
 Classroom(config)#
 
 
+
+
+
+first switch---------
 Classroom(config)#interface fastEthernet 0/24
 Classroom(config-if)#switchport mode trunk
 
@@ -64,5 +68,25 @@ Classroom(config-if)#
 
 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/24, changed state to up
 exit
+
+show vlan
+
+
+
+
+Classroom(config)#configure terminal
+Classroom(config)#interface fastEthernet 0/24
+Classroom(config)#switchport mode trunk
+Classroom(config)#switchport trunk allowed vlan 10,20
+Classroom(config)#exit
+
+
+
+for second switch--------
+Classroom(config)#configure terminal
+Classroom(config)#interface fastEthernet 0/24
+Classroom(config)#switchport mode trunk
+Classroom(config)#switchport trunk allowed vlan 10,20
+Classroom(config)#exit
 
 
